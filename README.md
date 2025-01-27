@@ -5,9 +5,9 @@ Esta aplicação realiza a leitura de um arquivo posicional contendo informaçõ
 
 
 ## Estrutura do Projeto
-- **`ingestao_pedidos.py`**: Código-fonte principal da aplicação.
-- **`arquivo_entrada.txt`**: Arquivo de entrada posicional com dados dos pedidos.
-- **`relatorio_saida.txt`**: Arquivo de saída contendo o relatório com os top 5 pedidos.
+- **`main.py`**: Código-fonte principal da aplicação.
+- **`input.txt`**: Arquivo de entrada posicional com dados dos pedidos.
+- **`output.txt`**: Arquivo de saída contendo o relatório com os top 5 pedidos.
 - **`README.md`**: Documentação técnica com explicações e instruções de uso.
 
 ---
@@ -15,7 +15,7 @@ Esta aplicação realiza a leitura de um arquivo posicional contendo informaçõ
 ## Processo de Solução
 
 1. **Leitura do Arquivo Posicional**: 
-   O programa lê cada linha do arquivo de entrada (`arquivo_entrada.txt`) e interpreta os campos com base nas posições definidas:
+   O programa lê cada linha do arquivo de entrada (`input.txt`) e interpreta os campos com base nas posições definidas:
    - **Número do Pedido**: Posição 1 a 10.
    - **Quantidade**: Posição 11 a 15.
    - **Valor Unitário**: Posição 16 a 25.
@@ -27,7 +27,7 @@ Esta aplicação realiza a leitura de um arquivo posicional contendo informaçõ
    Os pedidos são ordenados em ordem decrescente com base no valor total. Os 5 pedidos de maior valor total são selecionados.
 
 4. **Geração do Relatório**:
-   O relatório com os top 5 pedidos é salvo em um arquivo de saída (`relatorio_saida.txt`).
+   O relatório com os top 5 pedidos é salvo em um arquivo de saída (`output.txt`).
 
 ---
 
@@ -71,15 +71,15 @@ Esta aplicação realiza a leitura de um arquivo posicional contendo informaçõ
 
 2. **Passos para Executar**:
    1. Clone ou baixe este repositório.
-   2. Certifique-se de que o arquivo `arquivo_entrada.txt` está no mesmo diretório do script.
+   2. Certifique-se de que o arquivo `input.txt` está no mesmo diretório do script.
    3. Execute o programa com o comando:
       ```
-      python ingestao_pedidos.py
+      python main.py
       ```
-   4. O relatório gerado será salvo no arquivo `relatorio_saida.txt`.
+   4. O relatório gerado será salvo no arquivo `output.txt`.
 
 ---
 
 ## Exemplo de Entrada e Saída
 
-### Exemplo de Arquivo de Entrada (`arquivo_entrada.txt`)
+### Exemplo de Arquivo de Entrada (`input.txt`)
